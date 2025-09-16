@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6543B3F8-AE55-DC13-1902-2638F1D2D827" name="SLIKA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F5274931-605C-922E-FFA7-CE7ED21D218C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="AD5016B5-5F2B-0C9A-8603-3795B4CDD34A" name="UMETNIK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="F5274931-605C-922E-FFA7-CE7ED21D218C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="45916FC0-B230-F8A7-5A2F-4085E2D92FA2" name="Relation_3" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="F5274931-605C-922E-FFA7-CE7ED21D218C" propertySourceId="AD5016B5-5F2B-0C9A-8603-3795B4CDD34A" propertyTargetId="6543B3F8-AE55-DC13-1902-2638F1D2D827"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

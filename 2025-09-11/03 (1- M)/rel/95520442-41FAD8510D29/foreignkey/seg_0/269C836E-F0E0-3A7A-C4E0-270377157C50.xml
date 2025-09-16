@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="269C836E-F0E0-3A7A-C4E0-270377157C50" containerWithKeyObject="EFE1373F-72E0-138C-82D3-589CCD3EEA8F" localFKIndex="DC2311C9-5F93-2DC5-AC49-6B00B2537233" name="MODEL_KATEGORIJA_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>011C33E3-F66C-6FEC-58A2-43886DEAB40B</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<referredTableLongName>KATEGORIJA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A6C1F830-DFC5-E1BF-4610-141D759B1347</referredTableID>
+<keyObject>0A4F13B9-744C-4AE6-4D79-1B4901EDC626</keyObject>
+<referredKeyID>0A4F13B9-744C-4AE6-4D79-1B4901EDC626</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kategorije</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

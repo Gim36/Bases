@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9DD1A4AD-43B7-4AB0-BBF7-5E701E0A4620" name="PROIZVODJAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:28:09 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pib" id="BB54B447-5457-D393-9093-439AC1414DB6">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:28:59 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maticni_broj" id="9549BC15-620D-4915-AB87-5F5E2FBDC2E7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:29:10 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="459E7B7E-54E4-A3CB-2852-DB3A812C2E76">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:28:27 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="6981C666-2CD5-2C81-AFC6-FAE2B6075F17">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:28:37 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B5F66A9E-8437-B745-09DE-7190DBB504A6" name="PROIZVODJAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:29:09 UTC</createdTime>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="95520442-B1C9-44C9-F1C7-41FAD8510D29" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB54B447-5457-D393-9093-439AC1414DB6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

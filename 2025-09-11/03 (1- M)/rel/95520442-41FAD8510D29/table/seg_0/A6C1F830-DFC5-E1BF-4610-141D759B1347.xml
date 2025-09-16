@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A6C1F830-DFC5-E1BF-4610-141D759B1347" name="KATEGORIJA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>8FE007DF-C4F1-5EC3-D237-A47B6223CABC</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategorije" id="781AB762-5DA8-4560-D556-07A7CE814365">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>E26FDF9A-E699-6D74-1AB9-F5DC0F060028</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E262B5FD-1278-B5AC-8DD9-9601252D3CB7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>7008BCC6-17D5-A352-60A2-43BEEA71063D</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opis" id="61E2D2C6-179F-C54D-6623-100BD792FDA8">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>E1907EAA-D39A-6629-64C7-F2A5676B331D</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A4F13B9-744C-4AE6-4D79-1B4901EDC626" name="KATEGORIJA_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-11 06:59:54 UTC</createdTime>
+<generatorID>4E435F09-A7B7-FA3C-F884-D384A9D2CD90</generatorID>
+<ownerDesignName>03 (1- M)</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="781AB762-5DA8-4560-D556-07A7CE814365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

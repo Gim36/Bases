@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="second" id="9870E63E-960D-3DB3-6A3B-41A0477B5F4D" version="3.5">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:02:33 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9870E63E-960D-3DB3-6A3B-41A0477B5F4D</designId>
+</OSDM_Design>

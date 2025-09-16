@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74599C7E-8C25-DE85-1D83-CBD08C7C186F" name="PROIZVODJAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 06:41:42 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="1DC1980E-D58C-544A-868C-6825224F5772" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PIB" id="8FE4D7BC-6833-70A2-5EC1-06ABBF7823FB">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 06:41:53 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="1DC1980E-D58C-544A-868C-6825224F5772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="A325B6AC-2E3A-300B-80E2-DB0A1468D394">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 06:42:00 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="1DC1980E-D58C-544A-868C-6825224F5772" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="5DF50D38-31D6-F04F-8366-361502BCA98B">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 06:42:08 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="1DC1980E-D58C-544A-868C-6825224F5772" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="34C307F5-95B6-CB73-4058-DC8A71D8A87D" name="PROIZVODJAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 06:41:59 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="1DC1980E-D58C-544A-868C-6825224F5772" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8FE4D7BC-6833-70A2-5EC1-06ABBF7823FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
