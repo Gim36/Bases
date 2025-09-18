@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="162D3D21-DD24-1A46-313A-BCA09C2442DF" name="SKOLA-UDZBENIK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:20:10 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="maticni_broj" id="A0461186-C52B-6F9B-C9F2-1A9A938D0931">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:20:27 UTC</createdTime>
+<generatorID>2308E113-06B8-711F-2E65-B3922028F853</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>71C2B2E9-F7E0-D126-2D75-A57897553288</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="4FB28367-9C7F-DC31-40EF-8F9ADBCB08B3">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:20:41 UTC</createdTime>
+<generatorID>E6836D12-C16A-9607-CBD2-055C415C09A1</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>80C931DE-27ED-3E98-B1FF-5829E813A571</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A35F142-4837-A8E9-C801-B2C347DE9788" name="SKOLA-UDZBENIK PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:20:27 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A0461186-C52B-6F9B-C9F2-1A9A938D0931</attributeRef>
+<attributeRef>4FB28367-9C7F-DC31-40EF-8F9ADBCB08B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
