@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27A8038D-C52C-FB52-AA17-D4B56B50B729" name="CLAN">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:05 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9EB84CE0-A082-A205-5729-B8C2E5FFD39B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:08 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_rodjenja" id="F52BD008-3592-95A8-26CF-C2A2662A47F1">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:12 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mesto_rodjenja" id="D4C40971-D472-89C6-03E6-7A05267C91F6">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:26 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_roditelja" id="1130AEB2-7C93-10A2-D09F-54FA852A126C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:45 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="B0F15F97-9A4D-DD42-5640-722D9F140A93">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:54 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefon" id="C8E3E9E0-6DD0-1C54-B44B-4F3C6AD4A6ED">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:57 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="4BD47A5B-55B9-E5CD-C513-155E86D795C4">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:16:05 UTC</createdTime>
+<generatorID>484A8C5A-DC45-F685-06B4-FA770ADBB559</generatorID>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<referedAttribute>F1B96B15-EEE7-DF89-0B27-5B3103C55BA0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2F51056-B48A-33A8-6DB8-1BE99656A1DE" name="CLAN PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:14:11 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EB84CE0-A082-A205-5729-B8C2E5FFD39B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="951ED071-AC1B-EA3B-AF06-3631278257F1" name="ODELJENJE">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 08:56:03 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="redni_broj_razreda" id="0E0E3AF1-37A4-E720-C639-50E30D5DB11D">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 08:56:14 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indeks_odeljenja" id="0C003F63-C90B-8031-8B63-DFA51952D816">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 08:56:21 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime_razrednog_staresine" id="530048FB-3C02-55FC-39D6-B6C462119B89">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 08:56:31 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="D6084186-2440-20E2-8F14-9AE289F51181">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 09:02:35 UTC</createdTime>
+<generatorID>377E2B0B-0D83-3885-1939-079316B8FA69</generatorID>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D70720A-CDAD-6524-D019-77262A5419B8" name="ODELJENJE PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-18 08:56:20 UTC</createdTime>
+<ownerDesignName>01</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0E0E3AF1-37A4-E720-C639-50E30D5DB11D</attributeRef>
+<attributeRef>0C003F63-C90B-8031-8B63-DFA51952D816</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

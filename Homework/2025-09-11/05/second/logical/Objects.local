@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="88554090-FB2E-7A19-837B-EE0A65FA95A2" name="TAKSISTA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E8B8BB65-1DD2-A961-4283-F99BA6BF6649" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="45D923A3-4E21-272B-9C18-3CCB60ADF98C" name="TARIFA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E8B8BB65-1DD2-A961-4283-F99BA6BF6649" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D7EE9088-647C-3C60-2B6B-C5F6DD907E86" name="VOZNJA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="E8B8BB65-1DD2-A961-4283-F99BA6BF6649" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="CF5BBFC6-30BA-FAEC-64C2-2B1F51F9120E" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="E8B8BB65-1DD2-A961-4283-F99BA6BF6649" propertySourceId="88554090-FB2E-7A19-837B-EE0A65FA95A2" propertyTargetId="D7EE9088-647C-3C60-2B6B-C5F6DD907E86"/>
+   <object objectType="Relation" objectID="4E23B257-6629-105F-BE04-EE9F60C22BB1" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="E8B8BB65-1DD2-A961-4283-F99BA6BF6649" propertySourceId="45D923A3-4E21-272B-9C18-3CCB60ADF98C" propertyTargetId="D7EE9088-647C-3C60-2B6B-C5F6DD907E86"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

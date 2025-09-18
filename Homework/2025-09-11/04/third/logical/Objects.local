@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="27A8038D-C52C-FB52-AA17-D4B56B50B729" name="CLAN" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85DE297E-83CB-BC71-B7A3-F73AE05A0B0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="44DDB8AA-224C-F622-B784-95D10BCA3C12" name="GRUPA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85DE297E-83CB-BC71-B7A3-F73AE05A0B0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3A04D644-1B30-4858-DD8D-76237611A209" name="TRENER" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="85DE297E-83CB-BC71-B7A3-F73AE05A0B0C" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="4156C508-8C31-FF3E-350A-107634653384" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="85DE297E-83CB-BC71-B7A3-F73AE05A0B0C" propertySourceId="3A04D644-1B30-4858-DD8D-76237611A209" propertyTargetId="44DDB8AA-224C-F622-B784-95D10BCA3C12"/>
+   <object objectType="Relation" objectID="484A8C5A-DC45-F685-06B4-FA770ADBB559" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="85DE297E-83CB-BC71-B7A3-F73AE05A0B0C" propertySourceId="44DDB8AA-224C-F622-B784-95D10BCA3C12" propertyTargetId="27A8038D-C52C-FB52-AA17-D4B56B50B729"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

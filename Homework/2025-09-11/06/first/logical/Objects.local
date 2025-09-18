@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="FDF6AAD4-29C4-A62C-2E97-DB5468FD9AD1" name="POZIV" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17E38B33-C253-EFDC-D006-9A21DD01408F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="CDE4A1C4-C67D-AAE0-9E41-C20924EE46BE" name="SEKTOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17E38B33-C253-EFDC-D006-9A21DD01408F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="2B096962-DB80-C21D-445D-217CED796B72" name="ZAPOSLENI" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="17E38B33-C253-EFDC-D006-9A21DD01408F" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="8B7F8808-7EC8-ADE6-06BC-F59476581112" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="17E38B33-C253-EFDC-D006-9A21DD01408F" propertySourceId="CDE4A1C4-C67D-AAE0-9E41-C20924EE46BE" propertyTargetId="2B096962-DB80-C21D-445D-217CED796B72"/>
+   <object objectType="Relation" objectID="3B161232-9F15-7ADD-03CA-7BEFC0ED63B6" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="17E38B33-C253-EFDC-D006-9A21DD01408F" propertySourceId="2B096962-DB80-C21D-445D-217CED796B72" propertyTargetId="FDF6AAD4-29C4-A62C-2E97-DB5468FD9AD1"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
