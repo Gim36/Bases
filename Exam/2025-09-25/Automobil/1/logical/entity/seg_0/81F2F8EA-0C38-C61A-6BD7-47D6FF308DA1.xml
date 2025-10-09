@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81F2F8EA-0C38-C61A-6BD7-47D6FF308DA1" name="VLASNIK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:47:11 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PIB" id="B7F6C070-B771-7381-D231-94A809A5B31B">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:47:21 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="265CBC4D-2B69-9D85-C350-5B65C5FB1ACE">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:47:25 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="CD6292E8-569E-2479-8C08-219315137EF8">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:47:36 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direktor" id="A02C7606-64D9-A4E9-4442-BAE222CAB76D">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:48:13 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10930080-9E8C-FC1E-2C88-1B4DE259A7DB" name="VLASNIK PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:47:24 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<engineerTo>
+<item key="275B424E-0F72-B9D3-39F1-70BE62322F62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B7F6C070-B771-7381-D231-94A809A5B31B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

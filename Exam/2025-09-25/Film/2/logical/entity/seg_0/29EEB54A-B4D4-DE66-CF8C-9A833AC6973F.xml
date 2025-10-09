@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29EEB54A-B4D4-DE66-CF8C-9A833AC6973F" name="GLUMAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:08 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="C70C67A1-30E2-7913-889E-0D857BA41F82">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:17 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umetnicko_ime" id="2AB43802-FE42-9253-3F99-A3261BD372CE">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:22 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="919B1A7C-FB73-736A-1607-823790FCC7DD">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:29 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="F2BBAB74-4AA0-47D2-1777-072FC813606B">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:40 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drzava_rodjenja" id="9EAD6BFE-44F1-B915-F2EE-3E2C5974B839">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:44 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_rodjenja" id="5365A822-CF47-6C36-BB64-D6FE6281DB0F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:56:00 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_smrti" id="8F42CE26-EF4B-D786-8DD7-28241454AA6F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:56:06 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28949DE4-4933-3232-A3D9-272A8F3CC8EC" name="GLUMAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:55:21 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C70C67A1-30E2-7913-889E-0D857BA41F82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

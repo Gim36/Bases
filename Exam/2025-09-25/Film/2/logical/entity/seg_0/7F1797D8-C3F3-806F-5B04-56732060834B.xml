@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F1797D8-C3F3-806F-5B04-56732060834B" name="REZISER">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:21 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8ECE8710-5E04-D613-086E-5D2F7CC9B987">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:26 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ime" id="D4585172-75E9-70B8-D7CF-BDB536E5F941">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:43 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prezime" id="8A2BCDF1-D4FF-F346-4343-9E0273B21151">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:46 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="drzava_rodjenja" id="23CD28F6-EBFB-5624-86D9-42F1B1CE83B0">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:51 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_rodjenja" id="4D61940D-A519-4CD2-49F5-C1CF715AA1C8">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:57 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="godina_smrti" id="EAE4601E-538D-C594-7C14-FD0417622706">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:54:12 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="886CD8BF-5DE3-8CD8-DADC-6512CE547A66" name="REZISER PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:53:29 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8ECE8710-5E04-D613-086E-5D2F7CC9B987</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
