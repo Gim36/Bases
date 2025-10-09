@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E549063B-6FE9-89B9-B65B-833B4511F280" containerWithKeyObject="618F4243-B8A4-3019-DC20-7027D7F4BE11" localFKIndex="D18EA283-FF02-D01E-718F-93D8377C8704" name="PROFESOR-ODELJENJE_ODELJENJE_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>4EAA842A-B52C-3CFE-BC16-C65904B312D3</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<referredTableLongName>ODELJENJE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>038A0635-6549-D280-B96F-EBB443AA5583</referredTableID>
+<keyObject>3CA34D3F-CF3C-3593-5DE3-96DDE30A371A</keyObject>
+<referredKeyID>3CA34D3F-CF3C-3593-5DE3-96DDE30A371A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>indeks_odeljenja,redni_broj_razreda</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

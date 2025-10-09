@@ -52,19 +52,6 @@
 <dataTypeSize>20 CHAR</dataTypeSize>
 <ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="B8C04760-6027-C476-F369-E3438AFDD113">
-<createdBy>Gimnazijalac</createdBy>
-<createdTime>2025-09-18 13:08:40 UTC</createdTime>
-<generatorID>F6E06AC9-453A-D451-5DD5-96C3742524D2</generatorID>
-<ownerDesignName>first</ownerDesignName>
-<engineerTo>
-<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
-</engineerTo>
-<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="maticni_broj" id="8592818D-B086-7B5C-6201-FCDBE1A98B5D">
 <createdBy>Gimnazijalac</createdBy>
 <createdTime>2025-09-18 13:10:35 UTC</createdTime>
@@ -78,6 +65,20 @@
 <use>1</use>
 <logicalDatatype>LOGDT035</logicalDatatype>
 <dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="CAEC6E79-865F-262A-1A6A-22EC8B4640BC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 09:57:43 UTC</createdTime>
+<generatorID>F6E06AC9-453A-D451-5DD5-96C3742524D2</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

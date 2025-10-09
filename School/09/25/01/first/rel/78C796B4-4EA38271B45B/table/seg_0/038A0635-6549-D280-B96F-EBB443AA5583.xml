@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="038A0635-6549-D280-B96F-EBB443AA5583" name="ODELJENJE">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>951ED071-AC1B-EA3B-AF06-3631278257F1</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="redni_broj_razreda" id="02C5CEBA-66F5-6519-C24C-96B0685BE494">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>0E0E3AF1-37A4-E720-C639-50E30D5DB11D</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="indeks_odeljenja" id="3774B3FF-CBD7-B172-1573-7819B13400E0">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>0C003F63-C90B-8031-8B63-DFA51952D816</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime_razrednog_staresine" id="1ADDC3A4-5035-2E21-541C-1475B181C73D">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>530048FB-3C02-55FC-39D6-B6C462119B89</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SKOLA_maticni_broj" id="58601453-CF49-1D8E-B353-F859D6CCF644">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>8592818D-B086-7B5C-6201-FCDBE1A98B5D</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="47356A1F-A813-48FE-9AA7-729311D8A4FC" referredColumn="CC1CEA2C-6683-1942-276B-924422EE9591"/>
+</associations>
+</Column>
+<Column name="PROFESOR_id" id="F0B6AC8B-C305-8F64-1457-187F5B3DFF81">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>CAEC6E79-865F-262A-1A6A-22EC8B4640BC</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC672212-48A8-43B3-CEF8-A90A36D0B593" referredColumn="E3DC8A9D-E024-840C-981A-69DE1D6A328D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CA34D3F-CF3C-3593-5DE3-96DDE30A371A" name="ODELJENJE_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>3D70720A-CDAD-6524-D019-77262A5419B8</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3774B3FF-CBD7-B172-1573-7819B13400E0"/>
+<colUsage columnID="02C5CEBA-66F5-6519-C24C-96B0685BE494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8272749F-0521-B283-B2FB-712F8903589C" name="ODELJENJE__IDX">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F6E06AC9-453A-D451-5DD5-96C3742524D2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F0B6AC8B-C305-8F64-1457-187F5B3DFF81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22C21726-88C8-12A1-9D48-3226446181F4" name="ODELJENJE_PROFESOR_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>F6E06AC9-453A-D451-5DD5-96C3742524D2</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0B6AC8B-C305-8F64-1457-187F5B3DFF81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F4DC1E54-0B77-3309-EF0F-1BB100DFA352" name="ODELJENJE_SKOLA_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>CBF1F05D-49ED-099C-9236-C97E0E17931D</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58601453-CF49-1D8E-B353-F859D6CCF644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

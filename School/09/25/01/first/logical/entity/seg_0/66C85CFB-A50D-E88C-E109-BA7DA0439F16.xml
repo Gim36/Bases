@@ -142,6 +142,7 @@
 <referedAttribute>F7ED8503-B4AC-ACCD-8AAB-A68D8BC791BE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="FB77AF40-DB1C-BA42-EDF4-841AE7E029E6">
@@ -156,6 +157,7 @@
 <referedAttribute>F7ED8503-B4AC-ACCD-8AAB-A68D8BC791BE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="indeks_odeljenja" id="6688F94B-4A7F-B077-4C9D-66F75412946D">

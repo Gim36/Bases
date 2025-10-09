@@ -25,6 +25,7 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="uloga" id="BEDFD1F7-7696-E331-AE7F-6B3B3DFB3D45">
@@ -37,7 +38,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id" id="75BEC11E-5A21-D80E-8526-B92BDEDD7EFF">
 <createdBy>Gimnazijalac</createdBy>
@@ -50,6 +53,7 @@
 <referedAttribute>80C931DE-27ED-3E98-B1FF-5829E813A571</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="B195EDEC-5BC2-A724-22F7-629BB6735441">
@@ -63,6 +67,7 @@
 <referedAttribute>1E86DA0D-E50A-D73E-49BD-BF757F4B864E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

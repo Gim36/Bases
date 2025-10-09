@@ -41,6 +41,7 @@
 <referedAttribute>80C931DE-27ED-3E98-B1FF-5829E813A571</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

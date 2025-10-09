@@ -42,19 +42,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id" id="A93225DB-BDAE-6023-79A3-9D7851189834">
-<createdBy>Gimnazijalac</createdBy>
-<createdTime>2025-09-18 13:09:48 UTC</createdTime>
-<generatorID>646CF564-51A7-EA53-BD65-8A5CDA640303</generatorID>
-<ownerDesignName>first</ownerDesignName>
-<engineerTo>
-<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
-</engineerTo>
-<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="redni_broj_razreda" id="B12E7A18-4F1B-2BFF-7008-01ACB9BAF17F">
 <createdBy>Gimnazijalac</createdBy>
 <createdTime>2025-09-25 10:59:02 UTC</createdTime>
@@ -64,6 +51,20 @@
 <item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
 </engineerTo>
 <referedAttribute>0E0E3AF1-37A4-E720-C639-50E30D5DB11D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="8F01001D-3557-81A0-3F67-6831D3FE27DA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 09:57:43 UTC</createdTime>
+<generatorID>646CF564-51A7-EA53-BD65-8A5CDA640303</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -82,7 +83,7 @@
 <usedAttributes>
 <attributeRef>3BBC65C5-23A4-C482-7EBF-8110EA5EDBDF</attributeRef>
 <attributeRef>B12E7A18-4F1B-2BFF-7008-01ACB9BAF17F</attributeRef>
-<attributeRef>A93225DB-BDAE-6023-79A3-9D7851189834</attributeRef>
+<attributeRef>8F01001D-3557-81A0-3F67-6831D3FE27DA</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

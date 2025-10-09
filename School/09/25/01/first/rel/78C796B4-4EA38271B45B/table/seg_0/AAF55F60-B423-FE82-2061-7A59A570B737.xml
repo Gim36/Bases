@@ -1,0 +1,228 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAF55F60-B423-FE82-2061-7A59A570B737" name="UCENIK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>66C85CFB-A50D-E88C-E109-BA7DA0439F16</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="broj_u_maticnoj_knjizi" id="2E40BB94-DE21-00DB-6F94-EE7862C4D902">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>DD1406A7-494E-F277-FD58-E99B7F231CAE</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ime" id="79AB560C-F592-0C2A-7C50-13ECAC3E78B9">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>1332ED12-4687-A985-F0E0-4189B35B7FA2</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prezime" id="465CAAE1-CA3C-7CEE-7F5C-A42213311AD3">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>DD386B2B-46B3-F307-26DA-F1F59CBE452D</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JMBG" id="61FAA0D5-BA06-7E4A-3A01-D8DDDFBA6A71">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>F3D2A9DE-ECBB-3395-1FD7-6566FCFA0242</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>13 CHAR</dataTypeSize>
+<ownDataTypeParameters>13 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_rodjenja" id="419BDEDC-8E69-7FFC-09BA-0C91A0074F3C">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>7877310D-80B9-F4F7-74A9-BD683ED80EEB</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesto_rodjenja" id="B7337A2E-9077-6E19-BF98-AF692FEC4685">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>C0F1D970-FDEE-6CA9-AB28-9B4A867456C0</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="F75AB384-6CFD-B53D-06A8-C60E1DA9F8B0">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>84743498-8083-A54D-43C8-21E289827C75</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mail" id="31131759-5A60-3C95-47DA-CE8A786653B9">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>95E53E25-9103-ACF0-85D0-4FD4CED44193</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefon" id="92E215BB-E1F2-9957-CE99-82A734D8D1F1">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>1B0A07BF-8588-AEA8-6C70-49A440C8BB64</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RODITELJ_id" id="A5D92B27-5934-9B69-FDF5-05171098255A">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>4279927B-FA98-DDDE-878D-E9619D51E385</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFB2D9C8-44B6-7763-591E-3D408FEF1F56" referredColumn="8190EC3A-EDAF-2C5E-8CB2-4E8D9864A503"/>
+</associations>
+</Column>
+<Column name="RODITELJ_id2" id="0D343F1B-7B93-4273-1FD2-5A81D542B5B7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>FB77AF40-DB1C-BA42-EDF4-841AE7E029E6</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1853A562-30CE-A2F8-26D1-4AB5543843C3" referredColumn="8190EC3A-EDAF-2C5E-8CB2-4E8D9864A503"/>
+</associations>
+</Column>
+<Column name="ODELJENJE_indeks_odeljenja" id="1E61B543-55A2-B3EA-769E-5AF214483A8F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>6688F94B-4A7F-B077-4C9D-66F75412946D</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="925D2C38-5515-E788-6C05-A39F01A0FE19" referredColumn="3774B3FF-CBD7-B172-1573-7819B13400E0"/>
+</associations>
+</Column>
+<Column name="ODELJENJE_redni_broj_razreda" id="1959B4FE-9529-F7A6-A736-C9D3C167ECB3">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>3BA2ECE0-A317-9F9C-D74E-76645F6BEBEF</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="925D2C38-5515-E788-6C05-A39F01A0FE19" referredColumn="02C5CEBA-66F5-6519-C24C-96B0685BE494"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BF81B871-8FEE-631F-3D0F-9A0FE301115A" name="UCENIK_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>3E2B6933-A796-7847-4167-CCCDC44DA5E9</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E40BB94-DE21-00DB-6F94-EE7862C4D902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41B87631-B3B1-5D31-AEB5-882D5F1254E7" name="UCENIK_ODELJENJE_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>D7480995-E4F2-2185-6978-2F75D36A66C8</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E61B543-55A2-B3EA-769E-5AF214483A8F"/>
+<colUsage columnID="1959B4FE-9529-F7A6-A736-C9D3C167ECB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4769007-8F55-82E4-1872-4F9365A7862D" name="UCENIK_RODITELJ_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>083DAD2F-2F41-64E4-321F-4C1C90159A04</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5D92B27-5934-9B69-FDF5-05171098255A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55197B03-E28A-4F83-C526-6EDB473337B9" name="UCENIK_RODITELJ_FKv2">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>BE69DF95-895B-38DE-DBB7-2E3123C7FEA1</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D343F1B-7B93-4273-1FD2-5A81D542B5B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
