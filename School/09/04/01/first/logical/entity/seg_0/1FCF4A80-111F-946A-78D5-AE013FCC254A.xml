@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FCF4A80-111F-946A-78D5-AE013FCC254A" name="PROIZVODJAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:12:38 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="50D8FF26-889B-780F-981D-23149AD93713" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_proizvođača" id="09295A3D-0F5E-9DEE-EFB4-00271C7447BF">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:12:53 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="50D8FF26-889B-780F-981D-23149AD93713" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="A5857F4A-E1D4-309D-7B9B-EFE8396FFF46">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:13:06 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="50D8FF26-889B-780F-981D-23149AD93713" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="059DC3C9-8806-C92B-2D94-398C18B1E0CC" name="PROIZVODJAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:13:05 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="50D8FF26-889B-780F-981D-23149AD93713" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>09295A3D-0F5E-9DEE-EFB4-00271C7447BF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

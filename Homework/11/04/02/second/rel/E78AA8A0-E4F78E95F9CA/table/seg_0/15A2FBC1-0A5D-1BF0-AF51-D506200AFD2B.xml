@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15A2FBC1-0A5D-1BF0-AF51-D506200AFD2B" name="OBILAZAK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>94945419-B534-41BE-9254-1C2E43AD0CA6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C40DA26B-227F-8EAA-567A-09339D6A8C0D">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>20CD3CA3-2F3E-0767-C741-D720129A8A96</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="E4B45C31-BFDF-2C8E-0F20-E92A167EC4A6">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>D4B747E1-E59E-F815-E512-76A52A6F48A0</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,0,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cena" id="213CC74E-E319-964A-9FBD-46027F5B6BBE">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<importedID>22A61A31-6F39-FFD2-3CDF-70B40049DF44</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A916B879-F3F7-AAA8-3950-B2AC74BF2F2A" name="OBILAZAK_PK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>7EA7AD41-658A-FD5B-4AFC-61E5A94E10A7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C40DA26B-227F-8EAA-567A-09339D6A8C0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

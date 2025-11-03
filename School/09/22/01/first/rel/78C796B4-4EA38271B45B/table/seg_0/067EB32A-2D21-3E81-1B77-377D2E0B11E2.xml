@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="067EB32A-2D21-3E81-1B77-377D2E0B11E2" name="UDZBENIK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>FD6B0EF7-3D13-8CAE-11F8-6DEC6E9852EB</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5ADD5B5B-E1D9-B8A4-E5AC-4F0065854595">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>80C931DE-27ED-3E98-B1FF-5829E813A571</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="naziv" id="54765B09-FBBF-5996-3A4E-6E54B4481898">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>0E2E7EA5-4321-E5EC-A481-D0E46AF766C8</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="predmet" id="71B3A924-BD8C-BAE9-F22E-459279B873BB">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>93C30F74-BDE4-E5F8-2C75-EB61B98BC127</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="godina_prvog_objavljivanja" id="D6A6DE06-FDFA-E8A5-FEA4-50D9F91AE30F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>2B69B1E4-715A-7C10-2B62-923B642D6814</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D7E490D-F06A-4511-779A-3325BE7B89E1" name="UDZBENIK_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>1D06BA96-B62B-17B0-FAD6-206F460BEE16</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ADD5B5B-E1D9-B8A4-E5AC-4F0065854595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

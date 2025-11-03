@@ -1,0 +1,441 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0ED2047F-13B4-C674-E600-B97994C67937" mainViewID="95AFB9AC-311C-1EF9-A7DB-4EE046B08DB1">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:02:33 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<Entities>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09A4E8C4-B999-1DD0-9A47-230821E64B7E" name="CENA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:27 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3E2A8B35-3956-3635-FC1F-2F15E40BC6E3">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:41 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="iznos" id="9B1662E8-DF88-EA8A-D7A1-3564FFE7B217">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:45 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_od" id="E460D893-66F1-AFD4-389B-9D3099F25DA4">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:51 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_do" id="1DEFA4B5-6460-C0FA-7773-AB731E36EA00">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:05 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bar-kod" id="E0427C0A-4ABF-8945-45EB-142B12F187C7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:37 UTC</createdTime>
+<generatorID>3B2F7464-4199-3179-2A1E-9DD4EFA2A989</generatorID>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<referedAttribute>DDEBE771-499C-48D0-4342-0E6F24AD1AEA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5888E7AE-93A9-DB4E-BF3A-498F2420A46C" name="CENA PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:44 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E2A8B35-3956-3635-FC1F-2F15E40BC6E3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95C72CE3-F27F-50C1-68D2-EB1C07141CBE" name="KATEGORIJA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:06 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="07E62544-7EFE-599B-41F0-095514B12A6A">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:14 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="6F36CD4E-159A-8B1F-2DC7-072C81C0C751">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:17 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="2D234EB3-1496-DB8F-A22A-A31F02244944">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:21 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="083DE50D-9D1F-0F37-4192-AB2EDA231DFE" name="KATEGORIJA PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:04:16 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>07E62544-7EFE-599B-41F0-095514B12A6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6DA68F2-D094-DD6B-52C8-958F9E580BDB" name="PROIZVOD">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:37 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bar-kod" id="DDEBE771-499C-48D0-4342-0E6F24AD1AEA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:44 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="9AABD4F1-F344-9BEB-294A-F03BEF2DE2A4">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:49 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PIB" id="48F8781C-6120-491A-D6ED-32877BFC874C">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:25 UTC</createdTime>
+<generatorID>782959F6-7DC0-F903-3992-8EFAE6EEB5C6</generatorID>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<referedAttribute>716BDF77-DB93-E3EC-DEAE-D9725127EC61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="D7B391AB-50C2-4B2A-DC23-48F6519B8F9A">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:31 UTC</createdTime>
+<generatorID>B6E18C55-E6D6-F442-1DEB-B80A523132D3</generatorID>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<referedAttribute>07E62544-7EFE-599B-41F0-095514B12A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E10ECF51-5B71-944F-EED8-7A748152CA70" name="PROIZVOD PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:54 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDEBE771-499C-48D0-4342-0E6F24AD1AEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="465A5EA2-D9DA-D7C3-3117-D296E8FC20C4" name="PROIZVODJAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:03 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PIB" id="716BDF77-DB93-E3EC-DEAE-D9725127EC61">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:12 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="BEF6E169-66CE-212B-BD98-793717E61EE7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:17 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="B8431FE5-5092-2939-01DC-C1625D3A8C6F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:22 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="veb-sajt" id="9B9B199E-30C7-2ED1-7F9F-915155E67458">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:25 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCF1B550-2519-2E8C-28F5-217D92A34F40" name="PROIZVODJAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:03:16 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>716BDF77-DB93-E3EC-DEAE-D9725127EC61</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
+</Entities>
+<Relationships>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="782959F6-7DC0-F903-3992-8EFAE6EEB5C6">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:25 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<sourcePk>FCF1B550-2519-2E8C-28F5-217D92A34F40</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>465A5EA2-D9DA-D7C3-3117-D296E8FC20C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6DA68F2-D094-DD6B-52C8-958F9E580BDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="B6E18C55-E6D6-F442-1DEB-B80A523132D3">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:31 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<sourcePk>083DE50D-9D1F-0F37-4192-AB2EDA231DFE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95C72CE3-F27F-50C1-68D2-EB1C07141CBE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6DA68F2-D094-DD6B-52C8-958F9E580BDB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
+<Relationship class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="3B2F7464-4199-3179-2A1E-9DD4EFA2A989">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-09 07:05:37 UTC</createdTime>
+<ownerDesignName>fourth</ownerDesignName>
+<engineerTo>
+<item key="EC278F66-ABB7-EE81-2CC3-D3783C884C88" value="true"/>
+</engineerTo>
+<sourcePk>E10ECF51-5B71-944F-EED8-7A748152CA70</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B6DA68F2-D094-DD6B-52C8-958F9E580BDB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>09A4E8C4-B999-1DD0-9A47-230821E64B7E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relationship>
+</Relationships>
+<mainView class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="95AFB9AC-311C-1EF9-A7DB-4EE046B08DB1">
+<createdBy>Gimnazijalac</createdBy>
+<modifiedBy>Gimnazijalac</modifiedBy>
+<createdTime>2025-09-09 07:02:48 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="09A4E8C4-B999-1DD0-9A47-230821E64B7E" otype="Entity" vid="4CE8D8F0-CBBE-5C29-34B9-BD61DB27964C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="290" y="205" width="157" height="83"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="465A5EA2-D9DA-D7C3-3117-D296E8FC20C4" otype="Entity" vid="40633FE2-E349-55E0-D52C-33953699CF0E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="17" y="26" width="177" height="99"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="95C72CE3-F27F-50C1-68D2-EB1C07141CBE" otype="Entity" vid="33D8FFD2-67B3-13C0-514D-9708599EA399">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="502" y="36" width="161" height="88"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B6DA68F2-D094-DD6B-52C8-958F9E580BDB" otype="Entity" vid="E75048BB-940C-BA4D-7774-7FE6A067C46B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="246" y="38" width="207" height="82"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3B2F7464-4199-3179-2A1E-9DD4EFA2A989" otype="Relation" vid_source="E75048BB-940C-BA4D-7774-7FE6A067C46B" vid_target="4CE8D8F0-CBBE-5C29-34B9-BD61DB27964C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="368" y="120"/>
+<point x="368" y="205"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="782959F6-7DC0-F903-3992-8EFAE6EEB5C6" otype="Relation" vid_source="40633FE2-E349-55E0-D52C-33953699CF0E" vid_target="E75048BB-940C-BA4D-7774-7FE6A067C46B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="194" y="79"/>
+<point x="246" y="79"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="B6E18C55-E6D6-F442-1DEB-B80A523132D3" otype="Relation" vid_source="33D8FFD2-67B3-13C0-514D-9708599EA399" vid_target="E75048BB-940C-BA4D-7774-7FE6A067C46B">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="502" y="79"/>
+<point x="453" y="79"/>
+</points>
+</Connector>
+</connectors>
+</mainView>
+</LogicalDesign>

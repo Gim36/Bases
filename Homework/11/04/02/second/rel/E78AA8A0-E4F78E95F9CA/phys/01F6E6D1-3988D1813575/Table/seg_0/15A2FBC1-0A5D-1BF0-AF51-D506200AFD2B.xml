@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="OBILAZAK" directorySegmentName="seg_0" id="15A2FBC1-0A5D-1BF0-AF51-D506200AFD2B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="cena" id="213CC74E-E319-964A-9FBD-46027F5B6BBE">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C40DA26B-227F-8EAA-567A-09339D6A8C0D">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="naziv" id="E4B45C31-BFDF-2C8E-0F20-E92A167EC4A6">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="OBILAZAK_PK" id="A916B879-F3F7-AAA8-3950-B2AC74BF2F2A">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

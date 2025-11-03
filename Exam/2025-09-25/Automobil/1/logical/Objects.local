@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="375C94B3-D2C9-8AAC-CB4B-68D36E9942CF" name="AUTOMOBIL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FEDCE95F-43A3-049F-B6A5-894C4355419D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="81F2F8EA-0C38-C61A-6BD7-47D6FF308DA1" name="VLASNIK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="FEDCE95F-43A3-049F-B6A5-894C4355419D" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="E3348DE3-7CB3-7EB0-2180-832AD8532880" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="FEDCE95F-43A3-049F-B6A5-894C4355419D" propertySourceId="81F2F8EA-0C38-C61A-6BD7-47D6FF308DA1" propertyTargetId="375C94B3-D2C9-8AAC-CB4B-68D36E9942CF"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

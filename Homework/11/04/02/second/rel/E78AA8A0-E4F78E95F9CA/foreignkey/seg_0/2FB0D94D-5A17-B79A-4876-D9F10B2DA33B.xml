@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FB0D94D-5A17-B79A-4876-D9F10B2DA33B" containerWithKeyObject="34929EFF-8C0C-FA02-2115-57704ED7EC33" localFKIndex="FCCB24A7-0DE2-C125-9444-306BAF51A024" name="ARANZMAN-OBILAZAK_OBILAZAK_FK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>E74E6F70-8540-1B89-5857-BFA3D1A71D3A</importedID>
+<referredTableLongName>OBILAZAK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15A2FBC1-0A5D-1BF0-AF51-D506200AFD2B</referredTableID>
+<keyObject>A916B879-F3F7-AAA8-3950-B2AC74BF2F2A</keyObject>
+<referredKeyID>A916B879-F3F7-AAA8-3950-B2AC74BF2F2A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40533CCC-0C9C-D540-0AFE-47FCE6D97097" name="ARANZMAN">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>DE2CE764-FB26-A6F5-CFCD-FB3A85464740</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E90552C6-4C23-0558-C6DF-4D5C742F1E8C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>F2F28A56-BC69-85DA-DDA6-1FA9A0C39B9E</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_polaska" id="BFB42272-CA48-F32A-139B-2E40F90A4CE5">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>B544EF28-6390-0556-0912-7A08A98F0086</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_povratka" id="59C08AE0-C58B-1B07-3780-CB82DB4EBA87">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>09398F27-7835-3699-0E39-E62AC3EEA40B</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ukupna_cena" id="F0F1DBDD-955E-DFCA-D492-D0CEAD023538">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<generatorID>7F9D02FD-45B0-7693-52EF-22217F3FD622</generatorID>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="porez" id="DED6A2B0-789D-0BAB-C9E6-4BEA621D3795">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<generatorID>1FF66324-A9D2-DF18-70C1-2DCD2FA23879</generatorID>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_putovanja" id="A7D12CD2-5221-F4EC-CECD-9E3C2D396E28">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>4DCF6FFA-4EEA-21D2-4326-B8FF1C40AC24</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,0,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESTINACIJA_id" id="183E6F0E-A237-A1C7-BF9B-BFC1F7D5D3AB">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>19FA275B-4C50-BF53-7E66-A32DE31A09E2</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>C46E0E3C-8501-FC2B-9BC6-F1F262D4C467</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4F5AEAB-923B-9860-1265-18DF691F07DA" name="ARANZMAN_PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>4E3C3837-53F1-1138-CAA1-8D5AFAC67FFA</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E90552C6-4C23-0558-C6DF-4D5C742F1E8C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

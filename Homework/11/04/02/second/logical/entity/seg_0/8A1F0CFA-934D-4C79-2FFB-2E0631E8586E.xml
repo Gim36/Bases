@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A1F0CFA-934D-4C79-2FFB-2E0631E8586E" name="SOBA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>FB72336E-502A-5933-3908-4260F6BD6A82</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1AD31E46-3522-AD93-07F1-5ACF17F338F8">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>023030AA-4999-3AFF-3261-56C6F3E12760</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="velicina" id="09E9BC0A-52DB-1D67-1C30-3A6AF73CFFA1">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>9793FC6D-91B6-E7A2-EA58-510CD67CEF34</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena" id="2B7200B2-BDD0-3E56-891C-6A6634A8F747">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<generatorID>9E61A2D3-F152-A674-C2E5-8898333FEF61</generatorID>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOTEL_id" id="4C398B18-46E5-F349-EFFD-408288ED6F24">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>E8F7EA95-262B-1F6D-4EBD-E861884FA26B</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>AF3E3AF5-4197-8FC7-5F76-9C1F77DB72BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIP_SOBE_id" id="CD2782B5-3A1F-E174-C947-888A32AEFE5C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>30AC60D3-8254-E722-CBA8-B6A22F65A59B</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>5C689D4C-FD98-EB0C-86B3-514F9973BA61</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC4571E8-2C17-D875-55F5-8B2EC7E19BEF" name="SOBA_PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>92B8F852-0E34-97A1-A5E7-A9B523FF8586</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AD31E46-3522-AD93-07F1-5ACF17F338F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

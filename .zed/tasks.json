@@ -1,0 +1,16 @@
+[
+  {
+    "label": "Push to GitHub",
+    "shell": "system",
+    "command": "powershell",
+    "args": [
+      "-Command",
+      "git add .; git commit -m \"$(Get-Date -Format 'dd/MM/yyyy/HH:mm:ss')\"; git push"
+    ]
+  },
+  {
+    "label": "Fetch from GitHub",
+    "shell": "system",
+    "command": "git fetch --prune origin ; git reset --hard origin/main ; git clean -f -d"
+  }
+]

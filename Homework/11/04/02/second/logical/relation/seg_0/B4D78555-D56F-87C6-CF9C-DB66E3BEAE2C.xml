@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BORAVAK_SOBA_FK" directorySegmentName="seg_0" id="B4D78555-D56F-87C6-CF9C-DB66E3BEAE2C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>99CC7BB1-8E86-26D7-AEA9-B42B30814DEC</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<sourcePk>FC4571E8-2C17-D875-55F5-8B2EC7E19BEF</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8A1F0CFA-934D-4C79-2FFB-2E0631E8586E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F91BD5F-BFD7-E457-D0D9-5EE94C6BFE28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SOBA_TIP_SOBE_FK" directorySegmentName="seg_0" id="30AC60D3-8254-E722-CBA8-B6A22F65A59B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>0E84B506-D9F2-0889-B053-B1C7870C4AEB</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<sourcePk>815CA658-E997-22CE-FD8D-F34B2A948BF4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>282C92DD-5B8D-F7D0-EC73-50AD93609B9E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A1F0CFA-934D-4C79-2FFB-2E0631E8586E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

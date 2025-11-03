@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F50EFEC-C8C8-7E29-8EB9-9FFD5B7D046E" name="KLIJENT-ARANZMAN">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>E4EE5ABB-7D7E-9C83-B297-21DA29972581</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KLIJENT_id" id="6B77B770-4E32-165B-A2D9-88C8ED7A152D">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>DC2895A2-77CC-D96F-1530-0C12CB0564DB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="138C4700-204A-1BBF-451C-265A824830FB" referredColumn="48E59D5C-0207-B62C-FB00-89555642DAE7"/>
+</associations>
+</Column>
+<Column name="ARANZMAN_id" id="034C1862-CBA4-B0C7-2314-654A04EFAE89">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>4EC7764C-2A02-283C-1378-963563A3EB4B</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8CC7259-6033-0E57-A9FB-81FF072B9887" referredColumn="F2F28A56-BC69-85DA-DDA6-1FA9A0C39B9E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC5A7256-DB47-A66C-EACB-F603E6DD292C" name="KLIJENT-ARANZMAN_PK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>03D8E429-626E-1208-D113-A2B4CBEE4E59</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B77B770-4E32-165B-A2D9-88C8ED7A152D"/>
+<colUsage columnID="034C1862-CBA4-B0C7-2314-654A04EFAE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="67FDF23A-1D1F-111A-62DE-026FD209BADE" name="KLIJENT-ARANZMAN_ARANZMAN_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="034C1862-CBA4-B0C7-2314-654A04EFAE89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="58CD91D4-5324-110F-1466-84C1DE247894" name="KLIJENT-ARANZMAN_KLIJENT_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B77B770-4E32-165B-A2D9-88C8ED7A152D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

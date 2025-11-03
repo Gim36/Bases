@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F91BD5F-BFD7-E457-D0D9-5EE94C6BFE28" name="BORAVAK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>09F03EE4-DBC5-5214-ED23-52F2177EC909</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9621FADF-52F4-211F-4BC2-2CD6048DCB9F">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>95863090-B9C5-B445-863D-F87F4206C055</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_dana" id="91F42955-3A29-F178-67D5-D4A1A0D6FDCA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>33C59213-7167-7030-EE44-C2C0A0B0524F</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ukupna_cena_boravka" id="35DB6013-DFA6-52D6-951C-6E6D43590991">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<generatorID>89BDB405-982B-3379-B6C2-FDDEF94033E8</generatorID>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SOBA_id" id="3701587D-58BC-EE02-082A-6A0F94D85555">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>B4D78555-D56F-87C6-CF9C-DB66E3BEAE2C</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>1AD31E46-3522-AD93-07F1-5ACF17F338F8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLIJENT-ARANZMAN_KLIJENT_id" id="62AA01DF-23F1-9421-07F3-B561895556BE">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>61897983-E2D9-8364-8C3A-64E8916A9BD0</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>BA8E4CA3-A745-8996-32B7-4100CE489B83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLIJENT-ARANZMAN_ARANZMAN_id" id="A406555A-F9D9-C673-FE1D-2ACBB575A0FA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>61897983-E2D9-8364-8C3A-64E8916A9BD0</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<referedAttribute>00F79CF9-293F-2D61-3B7B-D9F88DD1DCC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EAF1485B-3701-6C28-8F62-36D8D6BDBC9A" name="BORAVAK_PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>EAE03D32-4C0E-5145-6AF8-376983377620</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9621FADF-52F4-211F-4BC2-2CD6048DCB9F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

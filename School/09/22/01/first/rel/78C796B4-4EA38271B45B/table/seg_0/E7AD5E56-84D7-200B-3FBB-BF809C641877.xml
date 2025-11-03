@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7AD5E56-84D7-200B-3FBB-BF809C641877" name="SKOLA-UDZBENIK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>162D3D21-DD24-1A46-313A-BCA09C2442DF</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SKOLA_maticni_broj" id="C61D4798-BA5A-1ED8-51FA-AC024F67B865">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>A0461186-C52B-6F9B-C9F2-1A9A938D0931</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19D2FD88-D320-4ACC-BD05-1E63887D50F9" referredColumn="CC1CEA2C-6683-1942-276B-924422EE9591"/>
+</associations>
+</Column>
+<Column name="UDZBENIK_id" id="9B1A2DEB-7C9F-5C00-47EC-7F38C1547961">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>4FB28367-9C7F-DC31-40EF-8F9ADBCB08B3</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFD495A6-B2CE-64CF-FD9E-F7A60DC92807" referredColumn="5ADD5B5B-E1D9-B8A4-E5AC-4F0065854595"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB8BB61F-F1E3-5107-C512-67746406BCA7" name="SKOLA-UDZBENIK_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>8A35F142-4837-A8E9-C801-B2C347DE9788</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C61D4798-BA5A-1ED8-51FA-AC024F67B865"/>
+<colUsage columnID="9B1A2DEB-7C9F-5C00-47EC-7F38C1547961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="961DBB8D-15DE-3230-0EAE-E3D59681CDD2" name="SKOLA-UDZBENIK_SKOLA_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>2308E113-06B8-711F-2E65-B3922028F853</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C61D4798-BA5A-1ED8-51FA-AC024F67B865"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6689C30A-F870-A87A-013A-4EF4440612B4" name="SKOLA-UDZBENIK_UDZBENIK_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>E6836D12-C16A-9607-CBD2-055C415C09A1</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B1A2DEB-7C9F-5C00-47EC-7F38C1547961"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

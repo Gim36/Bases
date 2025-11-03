@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDE4A1C4-C67D-AAE0-9E41-C20924EE46BE" name="SEKTOR">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:53:54 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="5B8B4869-E03F-5D00-0FF4-45F21207ABEB">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:53:58 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="82D6E8DB-2C0A-20AF-B911-EA64ABA2CDAD">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:54:02 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="AA47EC6F-F789-988F-89E3-FD6760F1B763">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:54:07 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonski_broj_centrale" id="9FC82936-2EB8-09CF-0684-704A3700303F">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:54:10 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DAE9730F-6273-8890-6D35-F346CE8C0B5A" name="SEKTOR PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:54:01 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B8B4869-E03F-5D00-0FF4-45F21207ABEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF159CEB-58E8-69F4-BCBF-C664F768BBCB" name="PROFESOR-ODELJENJE">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 12:57:29 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="predmet" id="2F2419B0-EEE2-BE3A-E4EC-2C02E2EDE5BF">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:09:11 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indeks_odeljenja" id="3BBC65C5-23A4-C482-7EBF-8110EA5EDBDF">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:09:36 UTC</createdTime>
+<generatorID>4EAA842A-B52C-3CFE-BC16-C65904B312D3</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>0C003F63-C90B-8031-8B63-DFA51952D816</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="redni_broj_razreda" id="B12E7A18-4F1B-2BFF-7008-01ACB9BAF17F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 10:59:02 UTC</createdTime>
+<generatorID>4EAA842A-B52C-3CFE-BC16-C65904B312D3</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>0E0E3AF1-37A4-E720-C639-50E30D5DB11D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="8F01001D-3557-81A0-3F67-6831D3FE27DA">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 09:57:43 UTC</createdTime>
+<generatorID>646CF564-51A7-EA53-BD65-8A5CDA640303</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<referedAttribute>E86AADB3-8AFD-A177-2595-7456F7D127E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E0D3CE3-EA47-E76D-4B0B-1C76FDC49755" name="PROFESOR-ODELJENJE PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-18 13:09:36 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="78C796B4-AD6A-10EC-D04F-4EA38271B45B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BBC65C5-23A4-C482-7EBF-8110EA5EDBDF</attributeRef>
+<attributeRef>B12E7A18-4F1B-2BFF-7008-01ACB9BAF17F</attributeRef>
+<attributeRef>8F01001D-3557-81A0-3F67-6831D3FE27DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

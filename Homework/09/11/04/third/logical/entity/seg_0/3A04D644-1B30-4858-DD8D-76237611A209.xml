@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A04D644-1B30-4858-DD8D-76237611A209" name="TRENER">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:59 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="826F71B8-82EB-7675-E95B-6A21A3191C22">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:13:13 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kontakt_informacije" id="0297374B-C251-8485-8A38-A1E7F47C9401">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:13:16 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_tekuceg_racuna" id="628595E1-2E74-928E-39A1-69568B6C0C2B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:13:23 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_trenerske_licence" id="0C8AEF65-2579-2A78-1B55-28AC514B2B0B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:13:35 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C3E43824-257F-A786-F4E9-FCA86A6EFE6D" name="TRENER PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:13:15 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>826F71B8-82EB-7675-E95B-6A21A3191C22</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

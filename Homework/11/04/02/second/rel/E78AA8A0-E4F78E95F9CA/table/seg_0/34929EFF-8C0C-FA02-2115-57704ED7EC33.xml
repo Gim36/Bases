@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34929EFF-8C0C-FA02-2115-57704ED7EC33" name="ARANZMAN-OBILAZAK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>32B2BBF8-0C14-C492-C543-011455CEE033</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ARANZMAN_id" id="4AB73050-4BEA-D705-C9D7-2B67D855BDE8">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>3418F98C-6872-85BE-8B0E-0D1AE9FA42E8</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D074298C-722E-6A23-D9FF-3130181627F4" referredColumn="F2F28A56-BC69-85DA-DDA6-1FA9A0C39B9E"/>
+</associations>
+</Column>
+<Column name="OBILAZAK_id" id="BE331485-3335-9556-466D-596DF641F27E">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>922ED33E-AFA6-DC6F-DCF9-17837F2F5579</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FB0D94D-5A17-B79A-4876-D9F10B2DA33B" referredColumn="C40DA26B-227F-8EAA-567A-09339D6A8C0D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0C3FCE-764E-D1DC-BB34-4F7523278A7D" name="ARANZMAN-OBILAZAK_PK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>F133F87E-0BB9-C5CE-FE36-9A8CAB7D9D44</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AB73050-4BEA-D705-C9D7-2B67D855BDE8"/>
+<colUsage columnID="BE331485-3335-9556-466D-596DF641F27E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1154F883-3C3E-3C3B-42EE-9C3CFC935710" name="ARANZMAN-OBILAZAK_ARANZMAN_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4AB73050-4BEA-D705-C9D7-2B67D855BDE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCB24A7-0DE2-C125-9444-306BAF51A024" name="ARANZMAN-OBILAZAK_OBILAZAK_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE331485-3335-9556-466D-596DF641F27E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

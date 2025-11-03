@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88554090-FB2E-7A19-837B-EE0A65FA95A2" name="TAKSISTA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:05:35 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="583A094E-9603-77BF-FB17-8526644D6514">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:05:55 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kontakt_informacije" id="A285D58A-B2C1-B839-0326-28B2D2422DA2">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:05:59 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_tekuceg_racuna" id="1DA04FAF-1C3C-7790-8A51-556716DC3D0D">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:06:13 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj_vozacke" id="EB5415BC-21E7-B585-373E-D68B51CC57EC">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:06:21 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2157C566-25D5-7BA9-9B3F-4044E20FE1A4" name="TAKSISTA PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:05:58 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>583A094E-9603-77BF-FB17-8526644D6514</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

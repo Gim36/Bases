@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FDF6AAD4-29C4-A62C-2E97-DB5468FD9AD1" name="POZIV">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:19 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="9169C197-4A89-6D5D-732F-541CAE0FDC1B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:22 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="broj" id="0566EB54-9B08-63E7-2FA5-B78022E17ADB">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:26 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vreme_pocetka" id="EF179CB7-0A76-CC69-6E0B-C59C801DCB2F">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:42 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duzina" id="212C6464-5C86-BD6B-0C19-0902DAAD740D">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:48 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D511E638-BB77-4EA0-8E53-32C4B322215C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:57:16 UTC</createdTime>
+<generatorID>3B161232-9F15-7ADD-03CA-7BEFC0ED63B6</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<referedAttribute>4B081C27-082C-2E65-1EE4-4F1B23D3249F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1D438489-E1D5-37B7-82D1-A7349F107B9F" name="POZIV PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 09:55:25 UTC</createdTime>
+<ownerDesignName>first</ownerDesignName>
+<engineerTo>
+<item key="9DB9165A-770A-29F7-82F0-13815B06106D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9169C197-4A89-6D5D-732F-541CAE0FDC1B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

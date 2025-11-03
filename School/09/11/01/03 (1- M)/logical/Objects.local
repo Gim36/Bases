@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="6DA8414D-8D06-2610-181B-44FA894D68D9" name="MODEL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B13241B1-1925-73D9-E6CE-1A15557342D9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="8FE007DF-C4F1-5EC3-D237-A47B6223CABC" name="KATEGORIJA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B13241B1-1925-73D9-E6CE-1A15557342D9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9DD1A4AD-43B7-4AB0-BBF7-5E701E0A4620" name="PROIZVODJAC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="B13241B1-1925-73D9-E6CE-1A15557342D9" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="011C33E3-F66C-6FEC-58A2-43886DEAB40B" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B13241B1-1925-73D9-E6CE-1A15557342D9" propertySourceId="8FE007DF-C4F1-5EC3-D237-A47B6223CABC" propertyTargetId="6DA8414D-8D06-2610-181B-44FA894D68D9"/>
+   <object objectType="Relation" objectID="F351C83D-55A8-C20F-5C7C-C06A75A2BC2E" name="Relation_1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="B13241B1-1925-73D9-E6CE-1A15557342D9" propertySourceId="9DD1A4AD-43B7-4AB0-BBF7-5E701E0A4620" propertyTargetId="6DA8414D-8D06-2610-181B-44FA894D68D9"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

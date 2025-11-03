@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ARANZMAN-OBILAZAK_OBILAZAK_FK" directorySegmentName="seg_0" id="ED803774-153B-0767-557B-12964220D049">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>2FB0D94D-5A17-B79A-4876-D9F10B2DA33B</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<sourcePk>BE56D8DC-CE35-D9BE-3255-8AF7C2CA0F5D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>724ECC60-11C4-71B3-F9C2-871E61F304EF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>05A1FB92-DA37-B04F-0202-7C44BC632527</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

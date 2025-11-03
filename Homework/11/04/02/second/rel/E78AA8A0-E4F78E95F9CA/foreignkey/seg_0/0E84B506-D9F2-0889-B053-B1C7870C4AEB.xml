@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E84B506-D9F2-0889-B053-B1C7870C4AEB" containerWithKeyObject="FB72336E-502A-5933-3908-4260F6BD6A82" localFKIndex="CCAE2761-6E38-5941-8AB7-1C68907B6806" name="SOBA_TIP_SOBE_FK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>7C10A7A5-3398-E8CA-8432-CF5A960EA74A</importedID>
+<referredTableLongName>TIP_SOBE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FF3BD74D-5154-D432-FE7D-6EEE4D593DD5</referredTableID>
+<keyObject>8E4EFF67-D471-5639-7451-8AEBD12CAF53</keyObject>
+<referredKeyID>8E4EFF67-D471-5639-7451-8AEBD12CAF53</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

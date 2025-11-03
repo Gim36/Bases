@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09F03EE4-DBC5-5214-ED23-52F2177EC909" name="BORAVAK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>AC905D04-325B-BA14-4B1C-1417F1EFB97C</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="95863090-B9C5-B445-863D-F87F4206C055">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>BAA65240-380A-FA2D-2606-BFFBED91BCA1</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="broj_dana" id="33C59213-7167-7030-EE44-C2C0A0B0524F">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>1111598E-41DB-965D-9158-28972FCD30EB</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ukupna_cena_boravka" id="89BDB405-982B-3379-B6C2-FDDEF94033E8">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<comment><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></comment>
+<commentInRDBMS><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></commentInRDBMS>
+<notes><![CDATA[U svim tipovima koji zahtevaju broj sa potencijalnim nulama na početku, obzirom na to da sam otkrio da NCHAR i NVARCHAR ne služe za "string" sačinjen isključivo od brojeva, već UNICODE Character Set (ponajčešće UTF-16, dok VARCHAR i CHAR koriste ASCII ili nešto jednostavnije), koristio sam NUMERIC umesto pomenutih. Što se njega tiče, Precision predstavlja broj cifara, dok je Scale broj decimala nakon tačke (što dakle znači da će broj imati 8 cifara i 2 decimale).]]></notes>
+<ownerDesignName>second</ownerDesignName>
+<importedID>24CD0925-0054-CA86-D7D5-AC899EDB8973</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SOBA_id" id="874CDDC1-29B2-CB0E-FA70-A994E0CBA7DD">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>0B3D4276-30D7-0C4B-0A4A-A8019542B9C2</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99CC7BB1-8E86-26D7-AEA9-B42B30814DEC" referredColumn="023030AA-4999-3AFF-3261-56C6F3E12760"/>
+</associations>
+</Column>
+<Column name="KLIJENT-ARANZMAN_KLIJENT_id" id="1031C5C4-BA2D-80A9-FEB7-75A0CFD6879D">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>E75E639B-A4D0-7CBC-BFDE-B5B2B6416CB5</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39F73912-081F-212D-8D44-62448D8CE0E4" referredColumn="6B77B770-4E32-165B-A2D9-88C8ED7A152D"/>
+</associations>
+</Column>
+<Column name="KLIJENT-ARANZMAN_ARANZMAN_id" id="C145E716-134E-F530-FF8A-CCD1BAAC5A2B">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>1559F88C-AB7A-1DAD-742F-BBD9A2D0751A</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39F73912-081F-212D-8D44-62448D8CE0E4" referredColumn="034C1862-CBA4-B0C7-2314-654A04EFAE89"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EAE03D32-4C0E-5145-6AF8-376983377620" name="BORAVAK_PK">
+<sourceDDLFile>f.ddl</sourceDDLFile>
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<importedID>BB24D19C-B0D5-875B-0DF1-89B50370E8EE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95863090-B9C5-B445-863D-F87F4206C055"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59A39864-A6C0-FF7F-144F-8A2715A892FC" name="BORAVAK_KLIJENT-ARANZMAN_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1031C5C4-BA2D-80A9-FEB7-75A0CFD6879D"/>
+<colUsage columnID="C145E716-134E-F530-FF8A-CCD1BAAC5A2B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1BC4D71-D64D-0FFC-C8C4-A567D3E75C57" name="BORAVAK_SOBA_FK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:50:49 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="874CDDC1-29B2-CB0E-FA70-A994E0CBA7DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

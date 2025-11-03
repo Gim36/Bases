@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="45D923A3-4E21-272B-9C18-3CCB60ADF98C" name="TARIFA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:11 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A695ACCF-359C-F9EA-039E-D4036DBBD63C">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:21 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="naziv" id="CA258202-4F11-0316-63B6-1C44ED11CFF0">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:23 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="opis" id="B2DD0CFB-3991-FE6D-018B-D0845C7D2AF8">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:26 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cena_po_minutu" id="CCE7F6BA-9EC9-8FA2-BCE3-2C04CB77B50B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:39 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="744A5692-2D34-F4B5-DE0E-6D572F13658D" name="TARIFA PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:08:46 UTC</createdTime>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="10C35289-EA3F-DB51-75A3-00A690C09994" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A695ACCF-359C-F9EA-039E-D4036DBBD63C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

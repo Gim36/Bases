@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9CBE1675-2C52-9066-EBA9-BECE0218F56A" name="UDZBENIK-AUTOR">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>D1776572-2167-1575-3F3B-F50C512DD15C</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="redni_broj_autora" id="E5CCFF0A-B23B-1713-7483-96D446FF8F21">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>C615F113-14EE-91F9-0680-F034F2D4E3B3</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="uloga" id="ACA1CB0C-CEAC-5B59-D4D6-9489BD63E99A">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>BEDFD1F7-7696-E331-AE7F-6B3B3DFB3D45</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UDZBENIK_id" id="109BF9D5-9450-5CBC-8405-DB817EE245A7">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>75BEC11E-5A21-D80E-8526-B92BDEDD7EFF</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01F3A62D-7A9A-08F3-886D-11DB311D30B8" referredColumn="5ADD5B5B-E1D9-B8A4-E5AC-4F0065854595"/>
+</associations>
+</Column>
+<Column name="AUTOR_id" id="CFE56071-0FC6-EB0E-908F-EBFBA20D5D99">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>B195EDEC-5BC2-A724-22F7-629BB6735441</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8910D6E-B6C5-85A6-2723-1B7280513FBC" referredColumn="A7BD6964-2A89-CCAA-CE68-79326776BB38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD1A2606-1890-73E1-FF6E-256B717AEC89" name="UDZBENIK-AUTOR_PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>29D20772-29F4-C030-B8A8-83A143896856</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109BF9D5-9450-5CBC-8405-DB817EE245A7"/>
+<colUsage columnID="CFE56071-0FC6-EB0E-908F-EBFBA20D5D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E223897-0E72-1D24-8D2D-B2BDC99069A5" name="UDZBENIK-AUTOR_UDZBENIK_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>CA4967A1-F0B6-F744-63D1-BB5C17A29545</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="109BF9D5-9450-5CBC-8405-DB817EE245A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87FCACCF-3B27-D734-211A-4E3D19A41F6D" name="UDZBENIK-AUTOR_AUTOR_FK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-10-09 10:09:38 UTC</createdTime>
+<generatorID>4110DF1C-00F4-457D-621C-A1918327ABC8</generatorID>
+<ownerDesignName>first</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFE56071-0FC6-EB0E-908F-EBFBA20D5D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

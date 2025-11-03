@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44DDB8AA-224C-F622-B784-95D10BCA3C12" name="GRUPA">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:15 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F1B96B15-EEE7-DF89-0B27-5B3103C55BA0">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:27 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="najmladje_godiste" id="A2363621-057A-6854-BD2A-8332C1951D7A">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:34 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="najstarije_godiste" id="86AB6EB7-B1C9-D2F2-027A-A94F5AA20527">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:50 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C06DB7A5-394F-FC1E-E0EB-056D1251E52D">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:15:57 UTC</createdTime>
+<generatorID>4156C508-8C31-FF3E-350A-107634653384</generatorID>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<referedAttribute>826F71B8-82EB-7675-E95B-6A21A3191C22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8D6C9A72-7D81-FF55-BCA5-2268C88B9349" name="GRUPA PK">
+<createdBy>nikol</createdBy>
+<createdTime>2025-09-16 10:12:33 UTC</createdTime>
+<ownerDesignName>third</ownerDesignName>
+<engineerTo>
+<item key="C31DFF08-E788-2650-A756-CA78D8A1FE6D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F1B96B15-EEE7-DF89-0B27-5B3103C55BA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

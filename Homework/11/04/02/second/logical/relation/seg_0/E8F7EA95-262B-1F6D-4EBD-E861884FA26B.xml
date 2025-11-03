@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SOBA_HOTEL_FK" directorySegmentName="seg_0" id="E8F7EA95-262B-1F6D-4EBD-E861884FA26B">
+<createdBy>nikol</createdBy>
+<createdTime>2025-11-03 22:51:17 UTC</createdTime>
+<generatorID>33C68EBB-FFA1-D439-7BE5-FA30992E9B1D</generatorID>
+<ownerDesignName>second</ownerDesignName>
+<engineerTo>
+<item key="E78AA8A0-5CD8-4AB0-C4C5-E4F78E95F9CA" value="true"/>
+</engineerTo>
+<sourcePk>D17883E7-FCE0-34CD-56A3-6696B0CF7B10</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>13085806-C993-BBC0-FA09-BD6FC73D1E7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A1F0CFA-934D-4C79-2FFB-2E0631E8586E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA6E1D64-5A6A-B9A2-BB9A-98E3B49391E1" name="FILM-GLUMAC">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:56:39 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="AD5BDC5D-DFBA-CF78-E08F-E381A2522DB9">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:56:57 UTC</createdTime>
+<generatorID>3260D079-2A53-8D62-2785-302DD45532A5</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<referedAttribute>9857794D-289D-489B-8EF8-5662F9707405</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="536978C4-F0F1-A089-C251-26FC4FBD532F">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:57:00 UTC</createdTime>
+<generatorID>4C46D175-694C-DDF9-223D-76E09D9A4782</generatorID>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<referedAttribute>C70C67A1-30E2-7913-889E-0D857BA41F82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="podaci" id="F20369E5-587E-FEEB-EC3B-4622DA960738">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 10:06:44 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA593A8F-AC73-4FAD-086F-958D9AE58862" name="FILM-GLUMAC PK">
+<createdBy>Gimnazijalac</createdBy>
+<createdTime>2025-09-25 09:56:57 UTC</createdTime>
+<ownerDesignName>2</ownerDesignName>
+<engineerTo>
+<item key="CB580601-CBEE-57A7-E2DC-46FE80FCD4A7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD5BDC5D-DFBA-CF78-E08F-E381A2522DB9</attributeRef>
+<attributeRef>536978C4-F0F1-A089-C251-26FC4FBD532F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
